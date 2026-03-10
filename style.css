@@ -6,15 +6,61 @@
     box-sizing: border-box;
       font-family: "Open Sans", sans-serif;
 
-.nav-left{
-    display: flex;
-    align-items: top;
-    
-    gap: 10px;
+      .nav{
+background-color: rgb(1, 1, 26);
+color: white;
+}
 }
 
-}.Logo{
-    position: left;
-  width: 100px;
-  height:auto;
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+}
+
+
+.nav-house{
+  width: 26px;
+  height: 26px;
+  font-size: 10px;
+ align-items: center;
+ vertical-align: middle;
+}
+
+.line-text{
+    text-align: center;
+    font-size: 12pxx;
+    
+}
+
+.nav-line1{
+    padding-left: 100px;
+}
+
+.nav-line2{
+    text-align: center;
+    font-size: 16px;
+}
+
+.nav-search{
+  width: 400px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
+
+.nav-container{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-left: 50px;
+
+}
+
+.Logo{
+  align-items: top;
+  width: 80px;
+  height:40px;
 }
