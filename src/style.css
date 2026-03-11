@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      font-family: "Open Sans", sans-serif;
+
+      .nav{
+background-color: rgb(1, 1, 26);
+color: white;
+}
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .nav {
+   flex-direction: column;
+  }
+}
+
+.nav-house{
+  width: 26px;
+  height: 26px;
+  font-size: 10px;
+ align-items: center;
+ vertical-align: middle;
+}
+
+input[type="text"] {
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+}
+
+input[type="text"]::placeholder {
+  text-align: center;
+}
+
+.line-text:hover {
+  transform: scale(1.1);
+}
+.nav-line2{
+    text-align: center;
+    font-size: 16px;
+     transition: transform 0.3s;
+}
+.nav-line2:hover {
+  transform: scale(1.1);
+}
+
+.nav-search{
+  width: 600px;
+  height: 35px;
+  font-family: Inter;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  cursor: text;
+   background-image: url('https://cdn-icons-png.flaticon.com/512/622/622669.png');
+    background-size: 20px 20px;
+     transition: transform 0.3s;
+  background-repeat: no-repeat;
+  background-position: right 10px center
+}
+
+.nav-search:focus {
+  outline: none;
+  transform: scale(1.05);
+}
+
+
+.nav-container{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-left: 50px;
+}
+
+.Logo{
+  align-items: top;
+  width: 80px;
+  height:40px;
+   transition: transform 0.3s;
+}
+.Logo:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.nav-bar{
+  background-color: rgb(5, 1, 37);
+  color: rgb(255, 255, 255);
+}
+.nav-item{
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 14px;
+   transition: transform 0.3s;
+}
+.nav-item:hover{
+transform: scale(1.1);
+cursor: pointer;
+} 
